@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="OfFT5F66iyMCKtrSk-sD">
-    <mxGraphModel dx="1700" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3073" dy="2775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,7 +132,7 @@
           <mxGeometry height="100" width="310" x="20" y="40" as="geometry" />
         </mxCell>
         <mxCell id="-RJ-GIG62gNtY89TseRm-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="ARCHI LOGICIEL" vertex="1">
-          <mxGeometry height="1040" width="780" x="440" y="90" as="geometry" />
+          <mxGeometry height="650" width="780" x="440" y="90" as="geometry" />
         </mxCell>
         <mxCell id="r4zlRER5qbxTtZPSu3---23" edge="1" parent="-RJ-GIG62gNtY89TseRm-3" source="r4zlRER5qbxTtZPSu3---12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="r4zlRER5qbxTtZPSu3---13">
           <mxGeometry relative="1" as="geometry" />
@@ -228,6 +228,108 @@
         </mxCell>
         <mxCell id="r4zlRER5qbxTtZPSu3---44" parent="-RJ-GIG62gNtY89TseRm-3" style="rounded=1;whiteSpace=wrap;html=1;" value="identifier les functions communes" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="UI MAIN" vertex="1">
+          <mxGeometry height="1050" width="1180" x="620" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-2" parent="3ScQF8Eghpkh0d5y6SMO-1" style="swimlane;whiteSpace=wrap;html=1;" value="HEADER" vertex="1">
+          <mxGeometry height="160" width="670" x="500" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-7" parent="3ScQF8Eghpkh0d5y6SMO-2" style="rounded=1;whiteSpace=wrap;html=1;" value="project page" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-8" parent="3ScQF8Eghpkh0d5y6SMO-2" style="rounded=1;whiteSpace=wrap;html=1;" value="pedantix page" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-9" parent="3ScQF8Eghpkh0d5y6SMO-2" style="rounded=1;whiteSpace=wrap;html=1;" value="HallOFMAPS page" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-10" parent="3ScQF8Eghpkh0d5y6SMO-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Christian Events Maps" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-3" parent="3ScQF8Eghpkh0d5y6SMO-1" style="swimlane;whiteSpace=wrap;html=1;" value="MAP" vertex="1">
+          <mxGeometry height="660" width="670" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-31" parent="3ScQF8Eghpkh0d5y6SMO-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Icons" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-4" parent="3ScQF8Eghpkh0d5y6SMO-1" style="swimlane;whiteSpace=wrap;html=1;" value="FOOTER" vertex="1">
+          <mxGeometry height="160" width="667" x="503" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-5" parent="3ScQF8Eghpkh0d5y6SMO-1" style="swimlane;whiteSpace=wrap;html=1;" value="SIDE/TOOL BAR" vertex="1">
+          <mxGeometry height="1000" width="480" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-33" parent="3ScQF8Eghpkh0d5y6SMO-5" style="swimlane;whiteSpace=wrap;html=1;" value="Filters" vertex="1">
+          <mxGeometry height="340" width="460" x="10" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-38" parent="3ScQF8Eghpkh0d5y6SMO-33" style="rounded=1;whiteSpace=wrap;html=1;" value="layers management&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-39" parent="3ScQF8Eghpkh0d5y6SMO-33" style="rounded=1;whiteSpace=wrap;html=1;" value="period filter" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-40" parent="3ScQF8Eghpkh0d5y6SMO-33" style="rounded=1;whiteSpace=wrap;html=1;" value="thematic filtering" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-42" parent="3ScQF8Eghpkh0d5y6SMO-33" style="rounded=1;whiteSpace=wrap;html=1;" value="geographic filter" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-34" parent="3ScQF8Eghpkh0d5y6SMO-5" style="rounded=1;whiteSpace=wrap;html=1;" value="last icon clicked full description" vertex="1">
+          <mxGeometry height="270" width="400" x="40" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-35" parent="3ScQF8Eghpkh0d5y6SMO-5" style="swimlane;whiteSpace=wrap;html=1;" value="SEARCHER" vertex="1">
+          <mxGeometry height="270" width="460" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-36" parent="3ScQF8Eghpkh0d5y6SMO-35" style="rounded=1;whiteSpace=wrap;html=1;" value="proximity search" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-37" parent="3ScQF8Eghpkh0d5y6SMO-35" style="rounded=1;whiteSpace=wrap;html=1;" value="semantic search" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-41" parent="3ScQF8Eghpkh0d5y6SMO-35" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="HARDCORE&lt;div&gt;à&lt;/div&gt;&lt;div&gt;SCINDER&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="70" x="100" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-43" parent="3ScQF8Eghpkh0d5y6SMO-35" style="rounded=1;whiteSpace=wrap;html=1;" value="Saint Of the Day" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="HALL OF MAPS PAGE" vertex="1">
+          <mxGeometry height="1050" width="1180" x="1820" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="SAINT PEDANTIX PAGE" vertex="1">
+          <mxGeometry height="1050" width="1180" x="1820" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="CHRISTIAN EVENTS MAPS" vertex="1">
+          <mxGeometry height="1050" width="1180" x="1820" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-22" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Christian event maps page" vertex="1">
+          <mxGeometry height="1050" width="1180" x="1820" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-23" parent="3ScQF8Eghpkh0d5y6SMO-22" style="swimlane;whiteSpace=wrap;html=1;" value="SIDE/TOOL BAR" vertex="1">
+          <mxGeometry height="1000" width="480" x="8" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-24" parent="3ScQF8Eghpkh0d5y6SMO-22" style="swimlane;whiteSpace=wrap;html=1;" value="HEADER" vertex="1">
+          <mxGeometry height="160" width="670" x="500" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-25" parent="3ScQF8Eghpkh0d5y6SMO-24" style="rounded=1;whiteSpace=wrap;html=1;" value="project page" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-26" parent="3ScQF8Eghpkh0d5y6SMO-24" style="rounded=1;whiteSpace=wrap;html=1;" value="pedantix page" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-27" parent="3ScQF8Eghpkh0d5y6SMO-24" style="rounded=1;whiteSpace=wrap;html=1;" value="HallOFMAPS page" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-28" parent="3ScQF8Eghpkh0d5y6SMO-24" style="rounded=1;whiteSpace=wrap;html=1;" value="Christian Events Maps" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-29" parent="3ScQF8Eghpkh0d5y6SMO-22" style="swimlane;whiteSpace=wrap;html=1;" value="FOOTER" vertex="1">
+          <mxGeometry height="160" width="667" x="503" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-30" parent="3ScQF8Eghpkh0d5y6SMO-22" style="swimlane;whiteSpace=wrap;html=1;" value="MAP" vertex="1">
+          <mxGeometry height="660" width="670" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3ScQF8Eghpkh0d5y6SMO-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="popUP/descripption" vertex="1">
+          <mxGeometry height="60" width="120" x="1160" y="1160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
