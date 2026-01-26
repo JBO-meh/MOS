@@ -1,7 +1,40 @@
-.header {
-    text-align: center;
-    padding: 1rem;
-    background: #f0f0f0;
+.bg-body-tertiary {
+    background-color: #e9ecef !important;
     width: 100%;
-    position: fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+/*
+.link-container {
+    display: grid;
+    justify-items: start;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+*/
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000000 !important;
+    padding: 10px;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #fdfeff !important;
+    border: 1px solid #4a4b4d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px 10px;
+    background-color:#4a4b4d;
 }

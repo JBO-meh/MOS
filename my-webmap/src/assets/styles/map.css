@@ -1,0 +1,6 @@
+.MapContainer {
+    flex: 1 1 auto;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+}

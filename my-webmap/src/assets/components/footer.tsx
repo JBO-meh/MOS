@@ -1,10 +1,25 @@
+import { Container } from "react-bootstrap";
 import "../styles/footer.css";
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+
+
 
 export default function Footer() {
   return (
-    <footer className="footer" style={{ textAlign: "center", padding: "1rem", background: "#f0f0f0" }}>
-      <p>© 2024 My WebMap Application. All rights reserved.</p>
-    </footer>
+    <div className="footer">
+      <p className="copyright">
+        &copy; {new Date().getFullYear()} Map of Saints. All rights reserved.
+      </p>
+      <Breadcrumb>
+        <Breadcrumb.Item href="#home">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+          who are we ?
+        </Breadcrumb.Item>
+        <Breadcrumb.Item active> report bug </Breadcrumb.Item>
+        <Breadcrumb.Item active> error in data ?</Breadcrumb.Item>
+        <Breadcrumb.Item active> contact us</Breadcrumb.Item>
+      </Breadcrumb>
+    </div>
   );
 }
 

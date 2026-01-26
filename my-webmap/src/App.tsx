@@ -1,25 +1,21 @@
 
-import Footer from './assets/components/footer'
+import Footer from './assets/components/Footer'
 import Header from './assets/components/Header'
 import Sidebar from './assets/components/sidebar'
 import './App.css'
 import BasicMap  from './assets/components/map'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
 
   return (
-    <>
+    < div className="App">
       < Header/>
       < div className="app-container">
-       
-        < main className="app-main">
           < BasicMap/>
-          < Sidebar/>
-        </ main>
       </ div>
-
       < Footer/>
-    </>
+    </ div>
   )
 }
 

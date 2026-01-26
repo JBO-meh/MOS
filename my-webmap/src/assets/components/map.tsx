@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-
+import "../styles/map.css";
 // Fix default icon issue in many React setups
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -18,7 +18,7 @@ export default function BasicMap() {
     <MapContainer
       center={[48.8566, 2.3522]} // Paris
       zoom={13}
-      style={{ height: "400px", width: "100%" }}
+      className="MapContainer"
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
