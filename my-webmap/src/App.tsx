@@ -1,17 +1,15 @@
 
 import Footer from './assets/components/Footer'
 import Header from './assets/components/Header'
-import Sidebar from './assets/components/sidebar'
 import './App.css'
 import BasicMap  from './assets/components/map'
-import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
 
   return (
-    < div className="App">
+    < div className="flex flex-col h-screen">
       < Header/>
-      < div className="app-container">
+      < div className="flex flex-col flex-auto overflow-hidden w-full h-full">
           < BasicMap/>
       </ div>
       < Footer/>
