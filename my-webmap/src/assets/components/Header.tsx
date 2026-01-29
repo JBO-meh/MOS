@@ -1,11 +1,8 @@
-import "../styles/header.css";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import "../styles/header.css"
 
 export default function Header() {
   return (
+    /*
     <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
       <Container className="container d-flex fit-content">
          <div className="d-flex justify-content-start gap-3 w-auto ">
@@ -19,5 +16,14 @@ export default function Header() {
         </div>
       </Container>
     </Navbar>
+    */
+    <header className="bg-blue-600 text-white p-4 shadow-md flex flex-row justify-start gap-5 items-center content-end">
+      <h1 className="text-2xl font-bold">MAP OF SAINTS</h1>
+      <div className="flex gap-5 justify-end">
+        <button className="bg-white text-blue-600 px-4 py-2 rounded-md hover:bg-gray-100 transition-colors"> test1 </button>
+        <button className="bg-white text-blue-600 px-4 py-2 rounded-md hover:bg-gray-100 transition-colors"> test2 </button>
+        <button className="bg-white text-blue-600 px-4 py-2 rounded-md hover:bg-gray-100 transition-colors"> test3 </button>
+      </div>
+    </header>
   );
 }

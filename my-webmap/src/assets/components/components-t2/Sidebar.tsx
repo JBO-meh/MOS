@@ -1,7 +1,7 @@
 
-export default function sidebar() {
+export default function Sidebar() {
   return (
-    <aside style={{ width: "250px", padding: "1rem", background: "#e0e0e0" }}>
+    <aside className="w-full md:w-32 bg-blue-500 p-4">
       <h2>Sidebar</h2>
       <ul>
         <li>Option 1</li>
