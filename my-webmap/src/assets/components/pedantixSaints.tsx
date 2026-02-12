@@ -1,1 +1,0 @@
-// https://github.com/Dorifor/pedant-x best solutions as far as i went
