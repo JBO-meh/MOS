@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Make the whole page stretch vertically */
+html, body, #root {
+  height: 100%;
+  background-color: #1a1a1a; /* Dark background */
+}
